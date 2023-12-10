@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(246, 243, 243, 0.667);
+}
+
+@layer components {
+  .container {
+    @apply max-w-full lg:max-w-[1440px] px-10 mx-auto;
+  }
+}
